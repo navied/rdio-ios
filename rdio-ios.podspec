@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source       =  { :git => 'https://github.com/navied/rdio-ios.git' }
   s.requires_arc =  true
 
-  s.source_files =  'Rdio.framework'
+  s.source_files =  'Rdio.framework/Headers', 'Rdio.framework/Rdio'
   s.frameworks   =  'CoreGraphics', 'CFNetwork', 'Security', 'AudioToolbox', 'SystemConfiguration'
   s.library      =  'stdc++'
   s.xcconfig     =  { 'OTHER_LDFLAGS' => '-all_load' }
