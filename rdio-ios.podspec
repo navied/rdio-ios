@@ -14,3 +14,5 @@ Pod::Spec.new do |s|
   s.library      =  'stdc++'
   s.xcconfig     =  { 'OTHER_LDFLAGS' => '-all_load' }
   s.platform     =  :ios
+
+end
