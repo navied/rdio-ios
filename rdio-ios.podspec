@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         =  'Rdio-ios'
+  s.name         =  'rdio-ios'
   s.version      =  '1.2'
   s.author       =  'Rdio'
   s.license      =  'BSD 3-Clause'
