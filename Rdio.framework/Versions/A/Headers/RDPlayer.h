@@ -1,7 +1,7 @@
 /**
  *  @file RDPlayer.h
  *  Rdio Playback Interface
- *  Copyright 2011-2013 Rdio Inc. All rights reserved.
+ *  Copyright 2011 Rdio Inc. All rights reserved.
  */
 
 #import <UIKit/UIKit.h>
